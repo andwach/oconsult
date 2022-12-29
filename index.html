@@ -1,206 +1,95 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"/>
-    <link
-      href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"/>
-      <link rel="stylesheet" href="dist/css/main.css">
-      <title>John the Photograph</title>
-   
-</head>
-<body>
-    <!-- Header -->
-    <header id="header-home">
-        <div class="container">
-            <nav id="main-nav">
-                <img src="dist/img/logo.png" alt="My Portfolio" id="logo">
-                <ul>
-                    <li><a href="index.html" class="current">Startseite</a></li>
-                    <li><a href="about.html">Über mich</a></li>
-                    <li><a href="work.html">Meine Arbeiten</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
 
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,700" rel="stylesheet" />
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@400;800&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/normalize.css">
+<link rel="stylesheet" href="vendor/skeleton.css">
+  <link rel="stylesheet" href="styles.css">
 
-                </ul>
-            </nav>
-            <div class="header-content">
-                <h1>
-                    Ich bin John der
-                    <span 
-                    class="txt-type" 
-                    data-wait="3000" 
-                    data-words='["Photograph", "Web-Designer", "SEO Experte"]'>
-                </span> 
-            </h1>
-                <p class="lead">
-                    Spezialist in Web-Design, kreieren und hosten Ihre Website 
-                </p>
-                <a href="work.html" class="btn-light">Mehr erfahren</a>
-            </div>
-        </div>
-    </header>
+  </head>
+  <body>
 
-<!-- Section A: Specialize -->
-<section id="home-a" class="text-center py-2">
+<header class="header">
+   <nav class="header-navbar">
     <div class="container">
-        <h2 class="section-title">Ich bin Spezilalist in</h2>
-        <div class="bottom-line"></div>
-        <p class="lead">
-            Erstellen von Webseiten, Hosting und Verwalten, auf Desktop und mobile Anwendungen.
-        </p>
-            <div class="specials">
-                <div>
-                    <i class="fas fa-file-alt fa-2x"></i>
-                    <h3>Konzept</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Officiis, molestias repellat quibusdam adipisci quas sed 
-                        ullam accusantium aliquam numquam quidem.   
-                    </p>
-                </div>
-                <div>
-                    <i class="fas fa-desktop fa-2x"></i>
-                    <h3>Website und Hosten</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Officiis, molestias repellat quibusdam adipisci quas sed 
-                        ullam accusantium aliquam numquam quidem.   
-                    </p>
-                </div>
-                <div>
-                    <i class="fas fa-object-ungroup fa-2x"></i>
-                    <h3>Visuelle Gestaltung</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Officiis, molestias repellat quibusdam adipisci quas sed 
-                        ullam accusantium aliquam numquam quidem.   
-                    </p>
-                </div>
-                <div>
-                    <i class="fas fa-thumbs-up fa-2x"></i>
-                    <h3>Interaktion</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Officiis, molestias repellat quibusdam adipisci quas sed 
-                        ullam accusantium aliquam numquam quidem.   
-                    </p>
-                </div>
+      <div class="logo-start">
+        <a class="logo" href="index.html">LOGO</a>
+        </div>
+          <ul class="navbar-links">
+            <li><a class ="startseite" href="#Startseite">Startseite</a></li>
+              <li><a href="https://coryrylan.com/blog/how-to-center-in-css-with-flexbox/" target="_blank">Service</a></li>
+                <li><a href="#Über mich">Über mich</a></li>
+                  <li><a href="#Kontakt">Kontakt</a></li>
+            </ul>
+      </nav>
+    </div>
+<div class="container">
+      <div class="slogan">
+              <div class="slogan-top">
+                Website Erstellung & Hosting
+              </div>
+              <div class="slogan-bottom">
+              Bei Create And Host ist alles inklusive
             </div>
+<div class="button-div">
+        <button class="button">
+              Mehr erfahren!
+        </button>
         </div>
-</section>
-
-<!-- Section B: Stats -->
-<section id="home-b" class="text-center py-2">
-    <div class="stats">
-      <div>
-        <ul>
-          <li><i class="fas fa-users fa-3x"></i></li>
-          <li class="stats-title">Aufträge</li>
-          <li class="stats-number">100</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><i class="fas fa-award fa-3x"></i></li>
-          <li class="stats-title">Kundenmeinungen </li>
-          <li class="stats-number">3</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><i class="fas fa-hourglass-start fa-3x"></i></li>
-          <li class="stats-title">Arbeitsstunden </li>
-          <li class="stats-number">3500</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><i class="fas fa-code-branch fa-3x"></i></li>
-          <li class="stats-title">Projekte abgeschlossen </li>
-          <li class="stats-number">135</li>
-        </ul>
       </div>
     </div>
-  </section>
+</header>
 
-  <!-- Section C: Prozess -->
-  
-  <section id="home-c" class="text-center py-2">
+<div class="web">
+  <div class="container">
+  <!--  <h1 class="nocolumn">No column</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+  -->
     <div class="container">
-      <h2 class="section-title">
-        Mein kreativer Prozess 
-      </h2>
-      <div class="bottom-line"></div>
-      <p class="lead">
-        Alle meine Website und Designprojekte basieren auf einer praktizierten Formel, 
-        um das Ergebnis zu erhalten, das ich suche 
-      </p>
-      <div class="process">
-        <div>
-          <i class="fas fa-file-alt fa-4x process-icon my-2">
-            <div class="process-step">1</div>
-          </i>
-          <h3>Besprechen Sie das Projekt</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            voluptas laborum repellendus dolorum! Harum, cupiditate.
-          </p>
-        </div>
-        <div>
-          <i class="fas fa-desktop fa-4x process-icon my-2">
-            <div class="process-step">2</div>
-          </i>
-          <h3>Brainstorming Konzept </h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            voluptas laborum repellendus dolorum! Harum, cupiditate.
-          </p>
-        </div>
-        <div>
-          <i class="fas fa-object-ungroup fa-4x process-icon my-2">
-            <div class="process-step">3</div>
-          </i>
-          <h3>Planung </h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            voluptas laborum repellendus dolorum! Harum, cupiditate.
-          </p>
-        </div>
-        <div>
-          <i class="fas fa-thumbs-up fa-4x process-icon my-2">
-            <div class="process-step">4</div>
-          </i>
-          <h3>Interaktion </h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            voluptas laborum repellendus dolorum! Harum, cupiditate.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+      <hr class="line"/>
 
-   <!-- Footer -->
-   <footer id="main-footer">
-    <div class="footer-content container">
-      <p>Copyright &copy; 2019. All Rights Reserved</p>
-      <div class="social">
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
+
+    </div>
+    <div class="row">
+      <div class="five columns">
+          <h2>Five columns</h2>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+      </div>
+      <div class="seven columns">
+      <h2>Seven columns</h2>
+<p>orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
       </div>
     </div>
-  </footer>
-  
-    <!-- Type Effect Tutorial: https://www.youtube.com/watch?v=POX3dT-pB4E -->
-    <script src="dist/js/typewriter.js"></script>
-</body>
+
+  </div>
+
+</div>
+
+
+<div class="container">
+  <hr class="line"/>
+
+
+</div>
+
+
+
+<footer>
+
+<div class="copyright">© 2022 Thomas Andre' W. all Rights Reserved</div>
+</footer>
+
+  </body>
 </html>
