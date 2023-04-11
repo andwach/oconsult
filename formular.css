@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    color: white;
+	
+}
+body {
+    background-color: black;
+}
+.box {
+    background-color: black;
+    width: 100%;
+    height: 101px;
+}
+header {
+    background-image: url("images/stock-exchange-g13210b913_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% -1%;
+    width: 100%;
+    height: 385px;
+    background-attachment: fixed;
+   
+  
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
+
+  /* Sub Menu Start */
+
+  ul  li {
+    display: inline-block; 
+    position: relative; 
+    
+}
+ul  li ul {
+    display: none; 
+    position: absolute; 
+    left: 30px;  
+    margin-top: 8px; 
+    width: 365px;
+}
+ul  li:hover ul {
+    display: block;
+   
+}
+.li-link {
+    border-bottom: 2px solid #1e90ff;
+    background-color: black;
+}
+.link-pfeil::after {
+    font-family: 'Font Awesome 5 Free';
+  content: '\f0d7';
+  font-weight: bold;
+  font-size: 13px;
+    margin-left: 4px;
+}
+
+
+/* Sub Menu End */
+
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+   font-size: 17px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+nav ul li a:hover {
+    color: #1e90ff;
+}
+.image {
+    width: 88px;
+    /* margin-left: 198px; */
+} 
+.site {
+    text-align: center;
+    font-size: 272%;
+   padding-top: 148px;
+}
+.container-color-black {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 58%;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.container-formular  {
+    width: 58%;
+    /* display: flex;
+    justify-content: flex-start; */
+    margin: 0 auto;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+.h1-blue {
+    font-size: 2.3rem;
+    margin-bottom: 36px;
+    margin-top: -26px;
+}
+.p-tag {
+    margin-bottom: 74px;
+
+}
+form {
+    font-size: 17px;
+}
+.label {
+    display: block;
+    padding-bottom: 13px;
+    font-weight: bold;
+}
+p {
+    font-size: 17px;
+}
+textarea {
+    width: 100%;
+    display: block;
+    background-color: #1a1a1a;
+    height: 320px;
+    border: none;
+    font-size: 17px;
+}
+input {
+    width: 100%;
+    display: block;
+    background-color: #1a1a1a;
+    height: 50px;
+    border: none;
+    
+}
+.senden {
+    width: 9rem;
+    background-color: #1a1a1a;
+    height: 50px;
+    border: 2px solid #1e90ff;
+    border-radius: 92px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.form-text-bottom {
+    margin-bottom: 90px;
+    line-height: 24px;
+}
+span {
+    color: white;
+}
+footer {
+    background-color: #061018;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0;
+}
+.f-ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+.f-ul li {
+    display: flex;
+    justify-content: center;
+   line-height: 24px;
+   
+}
+.imp {
+    font-size: 15px;
+}
+.imp a {
+    text-decoration: none;
+}
+.imp a:hover {
+    color: #1e90ff;
+}
+.info-example {
+    margin: 5px 0;
+    font-weight: normal;
+}
+.example::before {
+  font-family: 'Font Awesome 6 Free';
+    content: '\f3c5';
+    font-weight: bold;
+    color: #1e90ff;
+    padding-right: 25px;
+    font-size: 14px;
+}
+.info-example::before {
+    content: "\f003";
+    font-family: 'Font Awesome 6 Free';
+    /* font-weight: bold; */
+    color: #1e90ff;
+    padding-right: 24px;
+    font-size: 14px;
+}
+.phone::before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f095";
+   font-weight: bold; 
+    color: #1e90ff;
+    padding-right: 12px;
+    font-size: 14px;
+}
+.imp::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #1e90ff;
+    display: block;
+    margin-top: 6px;
+}
+.dat {
+    font-size: 15px;
+}
+.dat::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #1e90ff;
+    display: block;
+    margin-top: 6px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 38px;
+    right: 42px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#1e90ff;
+    color: white;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 60px;
+ }
+  
+  #myBtn:hover {
+    background-color: #1e90ff;
+  }
+
