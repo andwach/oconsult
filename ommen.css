@@ -96,6 +96,7 @@ nav ul li a:hover {
      background-color: rgba(0, 0, 0, 0.8); 
  
  }
+ }
  .h2 {
      position: absolute;
      z-index: 1;
@@ -111,6 +112,29 @@ nav ul li a:hover {
      top: 206px;
      font-size: 164%;
  }
+ .sub-text {
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: 18%;
+    top: 277px;
+    font-size: 164%;
+    color: #ffffff;
+    font-family: cursive;
+    font-style: italic;
+}
+.sub-text-2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: 18%;
+    top: 340px;
+    font-size: 164%;
+    color: #ffffff;
+    font-family: cursive;
+    font-style: italic;
+}
+ 
  
  footer {
     width: 100%;
