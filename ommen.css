@@ -176,11 +176,11 @@ nav ul li a:hover {
 /* SIDE MENÜ NAVIGATION */
 
 #side-menu-trigger {
-   
     font-size: 34px;
     position: absolute;
     left: 50px;
     top: 59px;
+    width: 43px;
 }
 @media (min-width: 968px) {
     #side-menu-trigger {
