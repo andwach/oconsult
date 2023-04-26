@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ommen.css">
+    <link 
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous" />
+    <title>OmmenConsult</title>
+</head>
+<body>
+ 
+    <!-- <div class="side-menu">
+        <h3>Navigation</h3>
+        Ich bin das Menü!
+    </div> -->
+    <!-- <button id="side-menu-trigger">Öffne das Menü</button> -->
+     <div class="side-menu" style="display: none;">
+            <h3>Navigation</h3>
+            <ul class="side-menu-navigation">
+                <li><a href="#">Unternehmensberatung</a></li>
+                <li><a href="#service">Coaching</a></li>
+                <li><a href="#clients">Immo</a></li>
+                <li><a href="#team">Kontakt</a></li>
+                <li><a href="#contact">OC - Intern</a></li>
+            </ul>
+        </div>
+<div class="wrapper">
+<div class="header-top">
+    <img class="img-header-top" src="img/header.png" alt="">
+</div>
+<header class="header-botton">
+    <img class="home-bottom" src="img/home.png" alt="">
+    <div class="navbar">
+        <button id="side-menu-trigger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a class="link-1" href="https://google.de"/ target="_blank">Unternehmensberatung</a>
+                    <!-- <ul class="ul-subnav">
+                        <li><a class="sub-link" href="https://google.de"/ target="_blank">Strategische Beratung</a></li>
+                        <li><a class="sub-link-2" href="https://google.de"/ target="_blank">Operative Beratung</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">Coaching</a></li>
+                <li><a href="#">Immo</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">IC - Intern</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+    
+<div class="overlay-container">
+    <h2 class="h2">Lorem Ipsum - Consectetur & Elit...</h2>
+    <p class="p">...leo diam tincidunt lectus - non ultricies quam purus!!!
+    </p>
+    <div class="overlay-color"></div>
+</div>
+    
+
+
+<footer>
+<div class="footer-container">
+<div class="box-left">
+ <ul>
+    <li style="color: #a38634; font-size: 117%;">IPSUM ELITE</li>
+    <li>Road 45</li>
+    <li>24689 Exmplecity</li>
+</ul>
+
+</div>
+<div class="box-middle">
+<ul>
+    <li>Tel 12345 54 76 321</li>
+    <li>Fax 12345 54 76 321</li>
+    <li><a href="#">email@example.de</a></li>
+</ul>
+
+</div>
+<div class="box-right">
+<h5 class="ds">Datenschutz</h5>
+
+<h5>Impressum</h5>
+</div>
+</div>
+
+</footer>
+</div>
+<script type="text/javascript" src="./vendor/jquery/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="./vendor/jpanelmenu/jquery.jpanelmenu.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        var jPM = $.jPanelMenu({
+            menu: '.side-menu',
+            trigger: '#side-menu-trigger',
+            direction: 'left'
+        });
+        jPM.on();
+        $(".side-menu a").click(function() {
+            jPM.close();
+        });
+    });
+</script>
+</body>
+</html>
+
+
+
