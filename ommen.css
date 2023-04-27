@@ -9,6 +9,9 @@
     font-family: 'Poltawski Nowy', serif;
     font-weight: normal;
 }
+body {
+    background-color: #000000;
+}
 .wrapper {
     width: 100vw;
     height: 100%;
