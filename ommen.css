@@ -10,7 +10,8 @@
     font-weight: normal;
 }
 .wrapper {
-    
+    width: 100vw;
+    height: 100vh;
     background-image: url("img/background.jpg");
     background-position: 50% 80%;
     background-size: cover;
