@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="start.css">
+  
+   
+   <link 
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous" />
+
+    
+</head>
+<body>
+    <!-- <div class="side-menu">
+        <h3 style="color: white; ">Navigation</h3>
+        Ich bin das Menü!
+    </div>  -->
+    <!-- <button id="side-menu-trigger">Öffne das Menü</button> -->
+    
+    <div class="side-menu" style="display: none;">
+        <h3>Navigation</h3>
+        <ul class="side-menu-navigation">
+            <li><a href="beratung.html">Unternehmensberatung</a></li>
+            <li><a href="d-schutz.html">Coaching</a></li>
+            <li><a href="index.html">Immo</a></li>
+            <li><a href="#team">Kontakt</a></li>
+            <li><a href="#contact">OC - Intern</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="box">
+            
+        <nav>
+            <button id="side-menu-trigger">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <img class="img-logo" src="img/home.png" alt="">
+            <!-- <h1 class="logo">My<span> Logo</span></h1> -->
+            <ul>
+                <li><a href="beratung.html">Unternehmensberatung</a></li>
+                <li><a href="index.html">Coaching</a></li>
+                <li><a href="d-schutz-2.html">Immo</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#contact">OC - Intern</a></li>
+            </ul>
+            <img class="img-header" src="img/header.png" alt="">
+            <!-- <button type="button">Abonnieren</button> -->
+        </nav>
+    </div>
+    </header>
+    <section class="ds-section">
+        <div class="article ds-article">
+            <h1 class="dse">Datenschutzerklärung:</h1>
+            <p class="dse-text">
+                Wir freuen uns über Ihr Interesse an unserem Unternehmen und unseren Dienstleistungen 
+                und möchten, dass Sie sich beim Besuch unserer Internetseiten auch hinsichtlich des Schutzes 
+                Ihrer personenbezogenen Daten sicher fühlen. Denn wir nehmen den Schutz Ihrer personenbezogenen 
+                Daten sehr ernst. Die Beachtung der Bestimmungen der DSGVO ist für uns eine Selbstverständlichkeit.
+                Mit den nachfolgenden Hinweisen informieren wir über Zweck, Art und Umfang der Erhebung, 
+                Verarbeitung und Nutzung personenbezogener Daten auf unserer Webseite.
+            </p>
+            <p class="dse-text-2">
+                Der Verantwortliche im Sinne der Datenschutz-Grundverordnung und anderer nationaler 
+                Datenschutzgesetze der Mitgliedsstaaten sowie sonstiger datenschutzrechtlicher Bestimmungen ist die:
+            </p>
+            <p class="dse-text-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Sed est eros, vulputate eget sodales nec, malesuada vel ante. Quisque volutpat risus in dolor 
+                sollicitudin a commodo libero suscipit. Nunc ultrices risus ut arcu hendrerit aliquet. 
+                Integer sit amet eros eu augue porttitor dictum. Quisque vel ante est, at lacinia tortor. 
+                Curabitur lacus purus, malesuada sit amet dapibus ac, placerat id leo. 
+                Nullam vel ultrices augue. Donec posuere convallis purus, sit amet imperdiet leo laoreet at.
+                 Quisque aliquam, urna non interdum lobortis, leo diam tincidunt lectus, 
+                 non ultricies quam purus eget quam.
+            </p>
+            
+                <ul class="dse-text-list-1">
+                    <li>LOREM IPSUM</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ul>
+                <ul class="dse-text-list-2">
+                    <li>Telefon 012 897 345 67</li>
+                    <li>e-Mail: exampe@email.com</li>
+                    <li>Website: www.example(at)site.de</li>
+                </ul>
+                <p class="dse-text-4">
+                    Curabitur lacus purus, malesuada sit amet dapibus ac
+                </p>
+ </section>
+ <footer>
+    <div class="footer-container">
+        <div class="box-left">
+         <ul>
+            <li style="color: #a38634; font-size: 117%;">IPSUM ELITE</li>
+            <li>Road 45</li>
+            <li>24689 Exmplecity</li>
+        </ul>
+        
+        </div>
+        <div class="box-middle">
+        <ul>
+            <li>Tel 12345 54 76 321</li>
+            <li>Fax 12345 54 76 321</li>
+            <li><a href="#">email@example.de</a></li>
+        </ul>
+        
+        </div>
+        <div class="box-right">
+        <h5 class="ds"><a href="d-schutz-2.html">Datenschutz</a></h5>
+        
+        <h5>Impressum</h5>
+        </div>
+        </div>
+</footer>
+
+
+<script type="text/javascript" src="./vendor/jquery/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="./vendor/jpanelmenu/jquery.jpanelmenu.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        var jPM = $.jPanelMenu({
+            menu: '.side-menu',
+            trigger: '#side-menu-trigger',
+            direction: 'left'
+        });
+        jPM.on();
+        $(".side-menu a").click(function() {
+            jPM.close();
+        });
+    });
+</script>
+</body>
+</html>
