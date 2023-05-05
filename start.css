@@ -78,7 +78,6 @@ nav ul li a:hover {
 section{
     width: 100%;
     min-height: 81vh;
-    background-image: url("img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 42% 54%;
